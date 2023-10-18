@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
 import Shiba from '../public/images/shiba.png'
 import Tree from '../public/images/TEDx/1.png'
-import ACC from '../public/images/ACC/1.jpg'
+// import ACC from '../public/images/ACC/1.jpg'
 import Layout from "../components/layouts/article";
 const Works = () => {
     return(
@@ -20,7 +20,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="acc" title="Research" thumbnail={ACC}>
+                    <WorkGridItem id="acc" title="Research" thumbnail={Tree}>
                         A research using Machine Learning
                     </WorkGridItem>
                 </Section>
