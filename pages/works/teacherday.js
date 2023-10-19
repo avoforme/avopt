@@ -33,7 +33,7 @@ import {
         </P>
   
         <SimpleGrid columns={2} gap={2}>
-          <WorkImage src="/images/TeacherDay/1.jpg" alt="teach" />
+          <WorkImage src="/images/TeacherDay/webui.jpg" alt="teach" />
           <WorkImage src="/images/TeacherDay/2.jpg" alt="teach" />
   
         </SimpleGrid>

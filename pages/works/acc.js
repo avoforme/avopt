@@ -88,7 +88,7 @@ import {
           <WorkImage src="/images/ACC/2.JPG" alt="walknote" />
   
         </SimpleGrid> */}
-        <WorkImage src="/images/ACC/1.jpg" alt="walknote" />
+        <WorkImage src="/images/ACC/me.jpg" alt="walknote" />
         <WorkImage src="/images/ACC/2.jpg" alt="walknote" />
         <WorkImage src="/images/ACC/3.jpg" alt="walknote" />
 
