@@ -1,9 +1,16 @@
 import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
-import Shiba from '../public/images/shiba.png'
-import Tree from '../public/images/TEDx/1.png'
-// import ACC1 from '../public/images/ACC/1.jpg'
+import TEDtapthe from '../public/images/TEDx/1.png'
+import ACC1 from '../public/images/ACC/1.jpg'
+import LegoPrime from '../public/images/Robotics/1.png'
+import PIF from '../public/images/PIF/1.jpg'
+import Artpill from '../public/images/Artpill/1.jpg'
+import teachweb from '../public/images/TeacherDay/1.jpg'
+import meomeo from '../public/images/MEOStudio/1.png'
+
+
+
 import Layout from "../components/layouts/article";
 const Works = () => {
     return(
@@ -15,37 +22,37 @@ const Works = () => {
 
             <SimpleGrid column={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="tedx" title="TEDx" thumbnail={Tree}>
+                    <WorkGridItem id="tedx" title="TEDx" thumbnail={TEDtapthe}>
                         A Non-profit media organization
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="acc" title="Research" thumbnail={Tree}>
+                    <WorkGridItem id="acc" title="Research" thumbnail={ACC1}>
                         A research using Machine Learning
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="robotics" title="Lego Prime Club" thumbnail={Tree}>
+                    <WorkGridItem id="robotics" title="Lego Prime Club" thumbnail={LegoPrime}>
                         A lego-robotics Club of U.S. Consulate General - Ho Chi Minh City
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="pif" title="Eletrical and Electronics Summer Camp at HCMUT" thumbnail={Tree}>
+                    <WorkGridItem id="pif" title="Eletrical and Electronics Summer Camp at HCMUT" thumbnail={PIF}>
                         2023 Summer Camp
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="artpill" title="Artpill" thumbnail={Tree}>
+                    <WorkGridItem id="artpill" title="Artpill" thumbnail={Artpill}>
                         2023
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="teacherday" title="National Teacher Day's Website" thumbnail={Tree}>
+                    <WorkGridItem id="teacherday" title="National Teacher Day's Website" thumbnail={teachweb}>
                         A platform for students of VNU-High school for the Gifted to send letters to teachers
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="meostudio" title="Garden of Plumeria" thumbnail={Tree}>
+                    <WorkGridItem id="meostudio" title="Garden of Plumeria" thumbnail={meomeo}>
                         A story website
                     </WorkGridItem>
                 </Section>

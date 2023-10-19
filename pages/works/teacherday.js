@@ -33,11 +33,11 @@ import {
         </P>
   
         <SimpleGrid columns={2} gap={2}>
-          <WorkImage src="/images/TeacherDay/1.JPG" alt="teach" />
-          <WorkImage src="/images/TeacherDay/2.JPG" alt="teach" />
+          <WorkImage src="/images/TeacherDay/1.jpg" alt="teach" />
+          <WorkImage src="/images/TeacherDay/2.jpg" alt="teach" />
   
         </SimpleGrid>
-        <WorkImage src="/images/TeacherDay/3.JPG" alt="teach" />
+        <WorkImage src="/images/TeacherDay/3.jpg" alt="teach" />
       </Container>
     </Layout>
   )
