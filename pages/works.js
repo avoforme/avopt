@@ -3,7 +3,7 @@ import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
 import Shiba from '../public/images/shiba.png'
 import Tree from '../public/images/TEDx/1.png'
-// import ACC from '../public/images/ACC/1.jpg'
+// import ACC1 from '../public/images/ACC/1.jpg'
 import Layout from "../components/layouts/article";
 const Works = () => {
     return(
@@ -32,6 +32,21 @@ const Works = () => {
                 <Section>
                     <WorkGridItem id="pif" title="Eletrical and Electronics Summer Camp at HCMUT" thumbnail={Tree}>
                         2023 Summer Camp
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="artpill" title="Artpill" thumbnail={Tree}>
+                        2023
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="teacherday" title="National Teacher Day's Website" thumbnail={Tree}>
+                        A platform for students of VNU-High school for the Gifted to send letters to teachers
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem id="meostudio" title="Garden of Plumeria" thumbnail={Tree}>
+                        A story website
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>

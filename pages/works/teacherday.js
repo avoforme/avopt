@@ -31,33 +31,13 @@ import {
   Then can crystals actually be unclear? And, how do crystals get unclear? Get on board with 𝐓𝐄𝐃𝐱𝐘𝐨𝐮𝐭𝐡@𝐏𝐓𝐍𝐊 to find out more.
   
         </P>
-        {/* <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>Instagram, Youtube</span>
-          </ListItem>
-          <ListItem>
-            <Meta>Instagram</Meta>
-            <Link href="https://www.instagram.com/tedxyouth.ptnk/">
-            tedxyouth.ptnk {' '}
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Meta>Youtube</Meta>
-            <Link href="https://youtube.com/playlist?list=PLrMddyoxkyq1pxyPOaPICNkLD656ul4U7">
-            Crystal Unclear @TEDx PTNK Youth Video playlist {' '}
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-        </List> */}
   
         <SimpleGrid columns={2} gap={2}>
-          <WorkImage src="/images/TeacherDay/1.JPG" alt="walknote" />
-          <WorkImage src="/images/TeacherDay/2.JPG" alt="walknote" />
+          <WorkImage src="/images/TeacherDay/1.JPG" alt="teach" />
+          <WorkImage src="/images/TeacherDay/2.JPG" alt="teach" />
   
         </SimpleGrid>
-        <WorkImage src="/images/TeacherDay/3.JPG" alt="walknote" />
+        <WorkImage src="/images/TeacherDay/3.JPG" alt="teach" />
       </Container>
     </Layout>
   )
