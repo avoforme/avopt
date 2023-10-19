@@ -2,11 +2,11 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
 import TEDtapthe from '../public/images/TEDx/1.png'
-// import ACC1 from '../public/images/ACC/1.jpg'
+import phililipine from '../public/images/ACC/1.jpg'
 import LegoPrime from '../public/images/Robotics/1.png'
 import summer from '../public/images/PIF/1.jpg'
 import Artpill from '../public/images/Artpill/1.jpg'
-// import teachweb from '../public/images/TeacherDay/1.jpg'
+import web from '../public/images/TeacherDay/1.jpg'
 import meomeo from '../public/images/MEOStudio/1.png'
 
 
@@ -27,7 +27,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="acc" title="Research" thumbnail={TEDtapthe}>
+                    <WorkGridItem id="acc" title="Research" thumbnail={phililipine}>
                         A research using Machine Learning
                     </WorkGridItem>
                 </Section>
@@ -47,7 +47,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="teacherday" title="National Teacher Day's Website" thumbnail={TEDtapthe}>
+                    <WorkGridItem id="teacherday" title="National Teacher Day's Website" thumbnail={web}>
                         A platform for students of VNU-High school for the Gifted to send letters to teachers
                     </WorkGridItem>
                 </Section>
