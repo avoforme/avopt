@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
 import TEDtapthe from '../public/images/TEDx/1.png'
-import ACC1 from '../public/images/ACC/1.jpg'
+// import ACC1 from '../public/images/ACC/1.jpg'
 import LegoPrime from '../public/images/Robotics/1.png'
 import PIF from '../public/images/PIF/1.jpg'
 import Artpill from '../public/images/Artpill/1.jpg'
@@ -27,7 +27,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="acc" title="Research" thumbnail={ACC1}>
+                    <WorkGridItem id="acc" title="Research" thumbnail={TEDtapthe}>
                         A research using Machine Learning
                     </WorkGridItem>
                 </Section>
