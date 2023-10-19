@@ -58,9 +58,9 @@ const Page = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Avopt
+              Thanh
             </Heading>
-            <p> Student / Developer / Editor / UI Designer </p>
+            <p> Learner / Reader / Developer / Editor </p>
           </Box>
           <Box
             flexShrink={0}
@@ -191,11 +191,12 @@ const Page = () => {
           <Section>
             <Wrap spacing={6}>
               <WrapItem>
-                <Tooltip
-                  label="Especially fiction"
-                  placement="left"
-                  defaultIsOpen
-                >
+                <Tooltip>
+                  <Button>Avopt is my nickname</Button>
+                </Tooltip>
+              </WrapItem>
+              <WrapItem>
+                <Tooltip label="Especially fiction" defaultIsOpen>
                   <Button>I love reading</Button>
                 </Tooltip>
               </WrapItem>
@@ -203,6 +204,18 @@ const Page = () => {
               <WrapItem>
                 <Tooltip>
                   <Button>I love eating Haribo</Button>
+                </Tooltip>
+              </WrapItem>
+
+              <WrapItem>
+                <Tooltip>
+                  <Button>Pascal is my first programming language</Button>
+                </Tooltip>
+              </WrapItem>
+
+              <WrapItem>
+                <Tooltip>
+                  <Button>I grew up with Minecraft</Button>
                 </Tooltip>
               </WrapItem>
 
