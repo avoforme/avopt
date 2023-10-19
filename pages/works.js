@@ -4,7 +4,7 @@ import { WorkGridItem } from "../components/grid-item";
 import TEDtapthe from '../public/images/TEDx/1.png'
 // import ACC1 from '../public/images/ACC/1.jpg'
 import LegoPrime from '../public/images/Robotics/1.png'
-import PIF from '../public/images/PIF/1.jpg'
+import summer from '../public/images/PIF/1.jpg'
 import Artpill from '../public/images/Artpill/1.jpg'
 import teachweb from '../public/images/TeacherDay/1.jpg'
 import meomeo from '../public/images/MEOStudio/1.png'
@@ -37,7 +37,7 @@ const Works = () => {
                     </WorkGridItem>
                 </Section>
                 <Section>
-                    <WorkGridItem id="pif" title="Eletrical and Electronics Summer Camp at HCMUT" thumbnail={PIF}>
+                    <WorkGridItem id="pif" title="Eletrical and Electronics Summer Camp at HCMUT" thumbnail={summer}>
                         2023 Summer Camp
                     </WorkGridItem>
                 </Section>
