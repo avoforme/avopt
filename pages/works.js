@@ -1,7 +1,7 @@
 import { Container, Heading, SimpleGrid, Divider } from "@chakra-ui/react";
 import Section from '../components/section'
 import { WorkGridItem } from "../components/grid-item";
-import TEDtapthe from '../public/images/TEDx/1.png'
+import TEDtapthe from '../public/images/TEDx/1_2.png'
 import phililipine from '../public/images/ACC/me.jpg'
 import LegoPrime from '../public/images/Robotics/1.png'
 import summer from '../public/images/PIF/1.jpg'

@@ -57,7 +57,7 @@ Then can crystals actually be unclear? And, how do crystals get unclear? Get on 
         <WorkImage src="/images/TEDx/5.png" alt="walknote" />
 
       </SimpleGrid>
-      <WorkImage src="/images/TEDx/1.png" alt="walknote" />
+      <WorkImage src="/images/TEDx/1_2.png" alt="walknote" />
       <WorkImage src="/images/TEDx/2.png" alt="walknote" />
  
 
