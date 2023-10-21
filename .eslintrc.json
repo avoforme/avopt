@@ -2,9 +2,6 @@
     "root": true,
     "extends": "next",
     "rules": {
-       "plugin":[ 
-            "react/recommended"
-        ],
         "no-unused-vars": [
             "error",
             {

@@ -7,8 +7,6 @@ import LegoPrime from '../public/images/Robotics/1.png'
 import summer from '../public/images/PIF/1.jpg'
 import Artpill from '../public/images/Artpill/1.jpg'
 import web from '../public/images/TeacherDay/webui.jpg'
-import meomeo from '../public/images/MEOStudio/1.png'
-
 
 
 import Layout from "../components/layouts/article";
@@ -51,11 +49,7 @@ const Works = () => {
                         A platform for students of VNU-High school for the Gifted to send letters to teachers
                     </WorkGridItem>
                 </Section>
-                <Section>
-                    <WorkGridItem id="meostudio" title="Garden of Plumeria" thumbnail={meomeo}>
-                        A story website
-                    </WorkGridItem>
-                </Section>
+                
             </SimpleGrid>
         </Container>
         </Layout>
