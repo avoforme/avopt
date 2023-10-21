@@ -53,13 +53,14 @@ Then can crystals actually be unclear? And, how do crystals get unclear? Get on 
       </List>
 
       <SimpleGrid columns={2} gap={2}>
-        <WorkImage src="/images/TEDx/6.png" alt="walknote" />
-        <WorkImage src="/images/TEDx/5.png" alt="walknote" />
+        <WorkImage src="/images/TEDx/6.png" alt="tedxpic" />
+        <WorkImage src="/images/TEDx/5.png" alt="tedxpic" />
 
       </SimpleGrid>
-      <WorkImage src="/images/TEDx/1_2.png" alt="walknote" />
-      <WorkImage src="/images/TEDx/2.png" alt="walknote" />
- 
+      <WorkImage src="/images/TEDx/1_2.png" alt="tedxpic" />
+      <WorkImage src="/images/TEDx/3.png" alt="tedxpic" />
+      <WorkImage src="/images/TEDx/2.png" alt="tedxpic" />
+      <WorkImage src="/images/TEDx/4.png" alt="tedxpic" />
 
     </Container>
   </Layout>
