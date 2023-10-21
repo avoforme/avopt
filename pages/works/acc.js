@@ -24,73 +24,16 @@ import {
         MACHINE LEARNING IN QUANTIFYING CORONARY BLOOD FLOW
         </P>
         <P>
-        
+        At the start of my 11th grade summer, I took some AI courses online. They were basic courses but they taught me a lot about Computer Vision and Machine Learning. Wanting to apply these knowledge to life, I became a interdisciplinary research assisstant.
         </P>
-        {/* <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>iOS</span>
-          </ListItem>
-          <ListItem>
-            <Meta>Blogpost</Meta>
-            <Link href="https://archive.craftz.dog/blog.odoruinu.net/2016/09/06/farewell-from-walknote/">
-              音楽発掘アプリwalknoteクローズのお知らせ{' '}
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Meta>Stack</Meta>
-            <span>Objective-C, PHP, MongoDB</span>
-          </ListItem>
-        </List>
-  
-        <Heading as="h4" fontSize={16} my={6}>
-          <Center>Media coverage</Center>
-        </Heading>
-  
-        <UnorderedList my={4}>
-          <ListItem>
-            <Link href="http://renewal49.hateblo.jp/entry/20120710/1341925681">
-              <Badge mr={2}>リニューアル式</Badge>
-              強力すぎて紹介しそびれていた音楽好きのための神アプリ『walknote』
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-  
-          <ListItem>
-            <Link href="http://www.appbank.net/2011/10/15/iphone-application/309349.php">
-              <Badge mr={2}>appbank</Badge>
-              walknote:
-              CD屋の試聴機が、自分向けになって手元に到着。そんな曲探しアプリ。無料。
-              <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-  
-          <ListItem>
-            <Link href="http://www.danshihack.com/2012/07/18/junp/iphoneapp-walknote.html">
-              <Badge mr={2}>男子ハック</Badge>
-              [おすすめの音楽をレコメンド！ストリーミング再生してくれるiPhoneアプリ「walknote」が素敵。
-            </Link>
-            <ExternalLinkIcon mx="2px" />
-          </ListItem>
-  
-          <ListItem>
-            <Badge mr={2}>タブロイド</Badge>
-            <Link href="http://www.tabroid.jp/app/multimedia/2013/05/app.walknote.html">
-              「YOU、これ聴いちゃいなよ」自分好みの曲が勝手に集まる音楽プレーヤー『walknote』
-            </Link>
-            <ExternalLinkIcon mx="2px" />
-          </ListItem>
-        </UnorderedList>
-  
-        <SimpleGrid columns={2} gap={2}>
-          <WorkImage src="/images/ACC/1.JPG" alt="walknote" />
-          <WorkImage src="/images/ACC/2.JPG" alt="walknote" />
-  
-        </SimpleGrid> */}
-        <WorkImage src="/images/ACC/me.jpg" alt="walknote" />
-        <WorkImage src="/images/ACC/2.jpg" alt="walknote" />
-        <WorkImage src="/images/ACC/3.jpg" alt="walknote" />
+        <P>My main job was helping in building the model to calculate the Aterial Phase- the time it takes for blood to finish running through one right coronary artery. To sum it up, the first thing the model needs to recognize is the Catether guide.</P>
+        <WorkImage src="/images/ACC/4.png" alt="accpic" />
+        <WorkImage src="/images/ACC/5.png" alt="accpic" />
+        <WorkImage src="/images/ACC/6.jpg" alt="accpic" />
+        <WorkImage src="/images/ACC/me.jpg" alt="accpic" />
+        <WorkImage src="/images/ACC/2.jpg" alt="accpic" />
+        <WorkImage src="/images/ACC/3.jpg" alt="accpic" />
+        
 
       </Container>
     </Layout>

@@ -35,15 +35,31 @@ const Work = () => (
 
       <WorkImage src="/images/PIF/1.jpg" alt="pifpic" />
       <WorkImage src="/images/PIF/3.png" alt="pifpic" />
+
+      <P>My first ever circuit:</P>
       <WorkImage src="/images/PIF/6.jpg" alt="pifpic" />
+      <P>
+        After a few more attempts, I became adept at it. This is the flip-flop
+        circuit:
+      </P>
       <Container mb={4}>
         <AspectRatio>
           <iframe title="pif" src="/images/PIF/vid4.mp4" allowFullScreen />
         </AspectRatio>
       </Container>
+      <P>First time welding:</P>
       <WorkImage src="/images/PIF/4.png" alt="pifpic" />
-      <WorkImage src="/images/PIF/5.png" alt="pifpic" />
 
+      <P>
+        This is my the basic design for my final project - The library sound
+        sensor:
+      </P>
+      <WorkImage src="/images/PIF/5.png" alt="pifpic" />
+      <P>
+        Product demonstration. There were four levels: Blue, Green, Yellow, and
+        Red. The noisier it gets, the higher color it shows. At Red, there will
+        be a sound warning.
+      </P>
       <Container mb={4}>
         <AspectRatio>
           <iframe title="pif" src="/images/PIF/vid1.mp4" allowFullScreen />
@@ -55,12 +71,7 @@ const Work = () => (
           <iframe title="pif" src="/images/PIF/vid2.mp4" allowFullScreen />
         </AspectRatio>
       </Container>
-
-      <Container mb={4}>
-        <AspectRatio>
-          <iframe title="pif" src="/images/PIF/vid3.mp4" allowFullScreen />
-        </AspectRatio>
-      </Container>
+      
     </Container>
   </Layout>
 )
