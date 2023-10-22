@@ -92,7 +92,7 @@ const Page = () => {
             About me
           </Heading>
           <Paragraph>
-            Hồ Phương Thanh, a dedicated English major at VNU High School for
+            Hồ Phương Thanh, a dedicated English gifted student at VNU High School for
             the Gifted in Ho Chi Minh City, possesses a strong determination to
             expand her knowledge, embrace fresh experiences, and connect with
             individuals from diverse backgrounds.{' '}
@@ -204,34 +204,6 @@ const Page = () => {
                   <Button>I grew up with Minecraft</Button>
                 </Tooltip>
               </WrapItem>
-
-              {/* <WrapItem>
-                <Tooltip label="I close on click">
-                  <Button>Close on Click - true(default)</Button>
-                </Tooltip>
-              </WrapItem>
-
-              <WrapItem>
-                <Tooltip label="I don't close on click" closeOnClick={false}>
-                  <Button>Close on Click - false</Button>
-                </Tooltip>
-              </WrapItem>
-
-              <WrapItem>
-                <Tooltip label="I am always open" placement="top" isOpen>
-                  <Button>Always Open</Button>
-                </Tooltip>
-              </WrapItem>
-
-              <WrapItem>
-                <Tooltip
-                  label="I am open by default"
-                  placement="left"
-                  defaultIsOpen
-                >
-                  <Button>Open on startup</Button>
-                </Tooltip>
-              </WrapItem> */}
             </Wrap>
           </Section>
         </Section>
