@@ -22,10 +22,6 @@ import { Title, WorkImage } from '../../components/activity'
 import P from '../../components/paragraph'
 
 const Work = () => {
-  const { isOpen1, onOpen1, onClose1 } = useDisclosure()
-  const { isOpen2, onOpen2, onClose2 } = useDisclosure()
-  const { isOpen3, onOpen3, onClose3 } = useDisclosure()
-  const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
     <Layout title="Research">
@@ -42,9 +38,8 @@ const Work = () => {
         </P>
         <P>
           My main job was helping in building the model to calculate the Aterial
-          Phase- the time it takes for blood to finish running through one right
-          coronary artery. To sum it up, the first thing the model needs to
-          recognize is the Catether guide.
+          Phase - the time it takes for blood to finish running through one right
+          coronary artery. 
         </P>
         <WorkImage src="/images/ACC/4.png" alt="accpic" />
         <WorkImage src="/images/ACC/5.png" alt="accpic" />

@@ -29,22 +29,14 @@ const Work = () => (
         <WorkImage src="/images/Robotics/2.png" alt="robot" />
       </SimpleGrid>
       <Container mb={4}>
-        <AspectRatio maxWidth>
-          <iframe
-            title="robot"
-            src="/images/Robotics/vid1.mp4"
-            allowFullScreen
-          />
-        </AspectRatio>
+      <video controls="true">
+          <source src="/images/Robotics/vid1.mp4" type="video/mp4" />
+        </video>
       </Container>
       <Container mb={4}>
-        <AspectRatio>
-          <iframe
-            title="robot"
-            src="/images/Robotics/vid2.mp4"
-            allowFullScreen
-          />
-        </AspectRatio>
+        <video controls="true">
+          <source src="/images/Robotics/vid2.mp4" type="video/mp4" />
+        </video>
       </Container>
     </Container>
   </Layout>

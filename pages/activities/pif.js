@@ -1,7 +1,4 @@
-import {
-  Container,
-  Badge,
-} from '@chakra-ui/react'
+import { Container, Badge } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage } from '../../components/activity'
 import P from '../../components/paragraph'
@@ -35,9 +32,9 @@ const Work = () => (
         circuit:
       </P>
       <Container mb={4}>
-        <AspectRatio>
-          <iframe title="pif" src="/images/PIF/vid4.mp4" allowFullScreen />
-        </AspectRatio>
+      <video controls="true">
+          <source src="/images/PIF/vid4.mp4" type="video/mp4" />
+        </video>
       </Container>
       <P>First time welding:</P>
       <WorkImage src="/images/PIF/4.png" alt="pifpic" />
@@ -53,17 +50,11 @@ const Work = () => (
         be a sound warning.
       </P>
       <Container mb={4}>
-        <AspectRatio>
-          <iframe title="pif" src="/images/PIF/vid1.mp4" allowFullScreen />
-        </AspectRatio>
+        <video controls="true">
+          <source src="/images/PIF/vid2.mp4" type="video/mp4" />
+        </video>
       </Container>
 
-      <Container mb={4}>
-        <AspectRatio>
-          <iframe title="pif" src="/images/PIF/vid2.mp4" allowFullScreen />
-        </AspectRatio>
-      </Container>
-      
     </Container>
   </Layout>
 )
