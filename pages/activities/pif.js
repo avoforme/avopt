@@ -1,17 +1,9 @@
 import {
   Container,
   Badge,
-  Link,
-  List,
-  ListItem,
-  SimpleGrid,
-  UnorderedList,
-  Heading,
-  Center
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta } from '../../components/work'
+import { Title, WorkImage } from '../../components/activity'
 import P from '../../components/paragraph'
 import { AspectRatio } from '@chakra-ui/react'
 
@@ -24,7 +16,7 @@ const Work = () => (
       <P>
         In July 2023, I joined my first ever Science Summer Camp. Thinking that
         EE will be the same as CS, I anticipated to the thought of something
-        more 'Mathematics' rather than 'Physics.'
+        more Mathematics rather than Physics.
       </P>
       <P>
         I soon realized there was a-whole-nother major dedicated to the Art of
