@@ -1,9 +1,4 @@
-import {
-  Container,
-  Badge,
-  SimpleGrid,
- 
-} from '@chakra-ui/react'
+import { Container, Badge, SimpleGrid } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage } from '../../components/activity'
 import P from '../../components/paragraph'
@@ -16,11 +11,12 @@ const Work = () => (
         Robotics Club <Badge>2023</Badge>
       </Title>
       <P>
-        Curious of what Robotics could entail, I particpated in a Robotics Club
-        of U.S. Consulate General - Ho Chi Minh City partnering with HCMUT. I
-        got to build robots and give it order through LEGO Spike. Even though it
-        was coded in something similar to Scratch, it was still hard to become
-        used to controlling it.{' '}
+        I was curious about Robotics and decided to participate in a Robotics
+        Club organized by the U.S. Consulate General in Ho Chi Minh City in
+        partnership with HCMUT. In the club, I had the opportunity to build
+        robots and program them using LEGO Spike Prime. Although the coding
+        language was similar to Scratch, I found it challenging to get used to
+        controlling the robots.{' '}
       </P>
       <P></P>
 
@@ -29,7 +25,7 @@ const Work = () => (
         <WorkImage src="/images/Robotics/2.png" alt="robot" />
       </SimpleGrid>
       <Container mb={4}>
-      <video controls="true">
+        <video controls="true">
           <source src="/images/Robotics/vid1.mp4" type="video/mp4" />
         </video>
       </Container>

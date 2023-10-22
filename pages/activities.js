@@ -69,7 +69,7 @@ const Works = () => {
               title="Cầu Hàn Charity School"
               thumbnail={Cauhan}
             >
-              2023
+            Teaching program
             </WorkGridItem>
           </Section>
           <Section>
