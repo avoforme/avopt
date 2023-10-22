@@ -128,7 +128,7 @@ const Page = () => {
                   <ModalCloseButton />
                   <ModalBody width="100%" height="100%">
                     THANH HO PHUONG's resume
-                    <iframe width="100%" height="100%" src="/ThanhHoPhuongResume.pdf"></iframe>
+                    <iframe width="100%" height="100%" src="/ThanhHoPhuongResume_final.pdf"></iframe>
                   </ModalBody>
 
                   <ModalFooter margin={5}>
