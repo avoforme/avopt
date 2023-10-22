@@ -71,18 +71,18 @@ const Page = () => {
               borderColor="whiteAlpha.800"
               borderWidth={2}
               borderStyle="solid"
-              w="100px"
-              h="100px"
+              w="150px"
+              h="150px"
               display="inline-block"
               borderRadius="full"
               overflow="hidden"
             >
               <ProfileImage
-                src="/images/shiba.png"
+                src="/self-pic2.jpg"
                 alt="Profile image"
                 borderRadius="full"
-                width="100"
-                height="100"
+                width="150"
+                height="150"
               />
             </Box>
           </Box>
@@ -113,9 +113,9 @@ const Page = () => {
           </Paragraph>
           <Wrap margin={5} spacing="30px" justify="center">
             <Box align="center" my={4}>
-              <NextLink href="/works">
+              <NextLink href="/activities">
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                  My portfolio
+                  My activities
                 </Button>
               </NextLink>
             </Box>

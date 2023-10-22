@@ -18,7 +18,7 @@ padding: 10px;
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/shiba.png`
+    const footPrintImg = `/ava.png`
     return (
         <Link href="/">
             
