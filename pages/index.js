@@ -140,8 +140,8 @@ const Page = () => {
                   <ModalHeader>Resume</ModalHeader>
                   <ModalCloseButton />
                   <ModalBody width="100%" height="100%">
-                    HO THANH's resume
-                    <iframe width="100%" height="100%" src="/dsat.pdf"></iframe>
+                    THANH HO PHUONG's resume
+                    <iframe width="100%" height="100%" src="/ThanhHoPhuongResume.pdf"></iframe>
                   </ModalBody>
 
                   <ModalFooter margin={5}>
