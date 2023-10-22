@@ -11,7 +11,7 @@ import TEDtapthe from '../public/images/TEDx/1_2.png'
 import phililipine from '../public/images/ACC/me.jpg'
 import LegoPrime from '../public/images/Robotics/1.png'
 import summer from '../public/images/PIF/1.jpg'
-import Artpill from '../public/images/Artpill/1.jpg'
+import Cauhan from '../public/images/Cauhan/1.jpg'
 import web from '../public/images/TeacherDay/webui.jpg'
 
 import Layout from '../components/layouts/article'
@@ -45,7 +45,7 @@ const Works = () => {
                   </WorkGridItem>
               </Section>
               <Section>
-                  <WorkGridItem id="artpill" title="Artpill" thumbnail={Artpill}>
+                  <WorkGridItem id="cauhan" title="Cầu Hàn Charity School" thumbnail={Cauhan}>
                       2023
                   </WorkGridItem>
               </Section>

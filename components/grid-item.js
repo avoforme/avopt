@@ -28,7 +28,7 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
     textAlign="center"
     colorScheme="teal"
     _hover={{
-      textShadow:'1px 1px #ff0000'
+      textShadow:'1px 1px #9A4444'
     }}
   >
     <LinkBox
