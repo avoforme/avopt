@@ -78,7 +78,7 @@ const Page = () => {
               overflow="hidden"
             >
               <ProfileImage
-                src="/self-pic2.jpg"
+                src="/self-pic4.jpg"
                 alt="Profile image"
                 borderRadius="full"
                 width="150"
@@ -96,20 +96,7 @@ const Page = () => {
             the Gifted in Ho Chi Minh City, possesses a strong determination to
             expand her knowledge, embrace fresh experiences, and connect with
             individuals from diverse backgrounds.{' '}
-            {/* <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
-          </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
-          <Link
-            as={NextLink}
-            href="https://www.youtube.com/devaslife"
-            passHref
-            target="_blank"
-          >
-            Dev as Life
-          </Link>
-          &quot; has more than 100k subscribers. */}
+           
           </Paragraph>
           <Wrap margin={5} spacing="30px" justify="center">
             <Box align="center" my={4}>
@@ -261,7 +248,7 @@ const Page = () => {
                   colorScheme="teal"
                   leftIcon={<IoLogoGithub />}
                   >
-                  @thanhavo
+                  @avoforme
                 </Button>
               </Link>
             </ListItem>

@@ -23,12 +23,11 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
   <Box
-  
     w="100%"
     textAlign="center"
     colorScheme="teal"
     _hover={{
-      textShadow:'1px 1px #9A4444'
+      textShadow: '1px 1px 000000'
     }}
   >
     <LinkBox
@@ -38,7 +37,6 @@ export const WorkGridItem = ({ children, id, title, thumbnail }) => (
       cursor="pointer"
     >
       <Image
-      
         src={thumbnail}
         alt={title}
         className="grid-item-thumbnail"
