@@ -1,5 +1,5 @@
 import {
- Link,
+  Link,
   Container,
   Heading,
   Box,
@@ -32,7 +32,7 @@ import Layout from '../components/layouts/article'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import { BioSelection, BioYear } from '../components/bio'
-
+import Draggable from 'react-draggable'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -43,12 +43,28 @@ const Page = () => {
 
   return (
     <Layout>
+      {/* <Draggable
+       className="cursor-pointer"
+       cursor= "pointer"
+        defaultPosition={{ x: 10, y: 100 }}
+        align="right"      >
+        <div>
+          <Image
+            src="/images/computer.png"
+            alt="Keyboard"
+            width={100}
+            height={100}
+            draggable={false}
+          />
+        </div>
+      </Draggable> */}
       <Container>
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.700', 'whiteAlpha.200')}
           p={3}
           mb={6}
+          mt={6}
           align="center"
         >
           "haribo is love, haribo is life"
@@ -92,16 +108,15 @@ const Page = () => {
             About me
           </Heading>
           <Paragraph>
-            Hồ Phương Thanh, a dedicated English gifted student at VNU High School for
-            the Gifted in Ho Chi Minh City, possesses a strong determination to
-            expand her knowledge, embrace fresh experiences, and connect with
-            individuals from diverse backgrounds.{' '}
-           
+            Hồ Phương Thanh, a dedicated English gifted student at VNU High
+            School for the Gifted in Ho Chi Minh City, possesses a strong
+            determination to expand her knowledge, embrace fresh experiences,
+            and connect with individuals from diverse backgrounds.{' '}
           </Paragraph>
           <Wrap margin={5} spacing="30px" justify="center">
             <Box align="center" my={4}>
               <NextLink href="/activities">
-                <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+                <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                   My activities
                 </Button>
               </NextLink>
@@ -109,7 +124,7 @@ const Page = () => {
             <Box align="center" my={4}>
               <Button
                 rightIcon={<ChevronRightIcon />}
-                colorScheme="teal"
+                colorScheme="pink"
                 onClick={onOpen}
               >
                 Open Resume
@@ -128,7 +143,11 @@ const Page = () => {
                   <ModalCloseButton />
                   <ModalBody width="100%" height="100%">
                     THANH HO PHUONG's resume
-                    <iframe width="100%" height="100%" src="/ThanhHoPhuongResume_final.pdf"></iframe>
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="/ThanhHoPhuongResume_final.pdf"
+                    ></iframe>
                   </ModalBody>
 
                   <ModalFooter margin={5}>
@@ -217,9 +236,9 @@ const Page = () => {
               <Link href="https://github.com/avoforme" target="_blank">
                 <Button
                   variant="ghost"
-                  colorScheme="teal"
+                  colorScheme="pink"
                   leftIcon={<IoLogoGithub />}
-                  >
+                >
                   @avoforme
                 </Button>
               </Link>

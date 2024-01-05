@@ -54,21 +54,21 @@ const Work = () => {
         <Wrap margin={5} spacing="30px" justify="center">
           <Box align="center" my={4}>
             <NextLink href="https://drive.google.com/file/d/1zQjKH5q5VzG5VYqsmCZw5sQ0wqIUMDHB/view?usp=sharing">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 ACC 2023 Reseach Poster
               </Button>
             </NextLink>
           </Box>
           <Box align="center" my={4}>
             <NextLink href="">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 ACC 2023 Abstract
               </Button>
             </NextLink>
           </Box>
           <Box align="center" my={4}>
             <NextLink href="https://drive.google.com/drive/u/0/folders/1tvjWS3z1PYS9Dic-CnC6xJGj_BDRuCMB">
-              <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+              <Button rightIcon={<ChevronRightIcon />} colorScheme="pink">
                 ACC 2024 Abstract
               </Button>
             </NextLink>
