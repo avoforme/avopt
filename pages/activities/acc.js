@@ -30,19 +30,19 @@ const Work = () => {
         </Title>
         <P>MACHINE LEARNING IN QUANTIFYING CORONARY BLOOD FLOW</P>
         <P>
-          At the start of my 11th grade summer, I embarked on a journey of
-          learning by enrolling in online AI courses. While these courses
-          provided me with foundational knowledge, they delved deep into the
-          realms of Computer Vision and Machine Learning, equipping me with a
-          profound understanding of these domains. Driven by the desire to
-          translate this newfound knowledge into practical applications, I
-          assumed the role of an interdisciplinary research assistant.
+          At the start of my 11th grade summer, I enrolled in online AI/ML
+          courses. While these courses provided me with foundational knowledge,
+          they delved deep into the realms of Computer Vision and Machine
+          Learning, equipping me with a new understanding of these domains.
+          Driven by the desire to translate this newfound knowledge into
+          practical applications, I assumed the role of an interdisciplinary
+          research assistant.
         </P>
         <P>
-        My primary responsibility revolved around building the model to calculate the Aterial
-          Phase - the time it takes for blood to finish running through one
-          right coronary artery. I even had the pleasure of representing our
-          team by presenting the research poster at ACC 2023.
+          My primary responsibility revolved around building the model to
+          calculate the Aterial Phase - the time it takes for blood to finish
+          running through one right coronary artery. I even had the pleasure of
+          representing our team by presenting the research poster at ACC 2023.
         </P>
         <WorkImage src="/images/ACC/4.png" alt="accpic" />
         <WorkImage src="/images/ACC/5.png" alt="accpic" />

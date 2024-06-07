@@ -13,7 +13,7 @@ const Work = () => (
       <P>
         I was curious about Robotics and decided to participate in a Robotics
         Club organized by the U.S. Consulate General in Ho Chi Minh City in
-        partnership with HCMUT. In the club, I had the opportunity to build
+        partnership with HCMUT. At the club, I had the opportunity to build
         robots and program them using LEGO Spike Prime. Although the coding
         language was similar to Scratch, I found it challenging to get used to
         controlling the robots.{' '}

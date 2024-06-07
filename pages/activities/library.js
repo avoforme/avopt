@@ -17,17 +17,16 @@ const Work = () => (
         Library <Badge>2021-Present</Badge>
       </Title>
       <P>
-        I have been a part of the librarian community for about three years now.
-        During this time, I have had the pleasure of witnessing its growth. When
-        I started studying at VNU-High School for the Gifted, the library was
-        also opened for the first time. Initially, it was tough managing the
-        whole system on our own, without any support. However, over the years,
-        the library grew, and seeing its progress was like watching a child grow
-        up. Today, it receives more than 200 visitors every day, which is quite
-        impressive. Even though it was challenging, my friends and I got used to
-        it. We even collaborated with school officials to hold school-hosted
-        events. Being a part of this community has given me valuable experiences
-        and memories that I will cherish forever.
+        For the past three years, I've been an active member of VNU-HCM
+        Highschool for the Gifted's library. I joined right when it first
+        opened, and it was no small feat keeping things running
+        smoothly with just a handful of us. We tackled everything from
+        cataloging books to organizing events, learning as we went.
+      </P>
+      <P>
+        Through this experience, I even had the chance to collaborate with school officials to pull off some
+        awesome events, like that epic book fair with guest authors! Being
+        part of this community has shaped me in ways I'll never forget.
       </P>
       <P> A normal day at the library:</P>
       <SimpleGrid columns={2} gap={2}>
@@ -37,8 +36,8 @@ const Work = () => (
         <WorkImage src="/images/Library/4.jpg" alt="library" />
       </SimpleGrid>
       <P>
-        On each occasion, we organize a celebratory event. This one was for
-        Lunar New Year festival.
+        For each occasion, we held an event. This one was for Lunar New Year
+        festival.
       </P>
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/Library/5.jpg" alt="library" />
@@ -49,7 +48,7 @@ const Work = () => (
       <P>
         Here are some other activities that we have held. One was for “Vietnam
         Book and Reading Culture Day”, and one was for "Art Industry for art
-        lovers". Every now and then, we visit the child at Tu Hanh shelter.
+        lovers".
       </P>
       <SimpleGrid columns={2} gap={2}>
         <WorkImage src="/images/Library/10.jpg" alt="library" />
@@ -57,7 +56,7 @@ const Work = () => (
         <WorkImage src="/images/Library/12.jpg" alt="library" />
         <WorkImage src="/images/Library/13.jpg" alt="library" />
       </SimpleGrid>
-      
+
       <WorkImage src="/images/Library/9.jpg" alt="library" />
     </Container>
   </Layout>

@@ -43,22 +43,7 @@ const Page = () => {
 
   return (
     <Layout>
-      {/* <Draggable
-       className="cursor-pointer"
-       cursor= "pointer"
-        defaultPosition={{ x: 10, y: 100 }}
-        align="right"      >
-        <div>
-          <Image
-            src="/images/computer.png"
-            alt="Keyboard"
-            width={100}
-            height={100}
-            draggable={false}
-          />
-        </div>
-      </Draggable> */}
-      <Container>
+      <Container mt={0}>
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.700', 'whiteAlpha.200')}
@@ -146,7 +131,7 @@ const Page = () => {
                     <iframe
                       width="100%"
                       height="100%"
-                      src="/ThanhHoPhuongResume_final.pdf"
+                      src="/ThanhHoPhuongResume.pdf"
                     ></iframe>
                   </ModalBody>
 
@@ -158,10 +143,27 @@ const Page = () => {
                 </ModalContent>
               </Modal>
             </Box>
+            <Draggable
+          className="cursor-pointer"
+          cursor="pointer"
+          defaultPosition={{ x: 10, y: 100 }}
+          align="right"
+        >
+          <div>
+            <Image
+              src="/images/computer.png"
+              alt="Keyboard"
+              width={100}
+              height={100}
+              draggable={false}
+            />
+          </div>
+        </Draggable>
           </Wrap>
         </Section>
 
         <Section delay={0.2} align="center">
+        
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
