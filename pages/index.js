@@ -44,6 +44,23 @@ const Page = () => {
   return (
     <Layout>
       <Container mt={0}>
+        
+      <Draggable
+          className="cursor-pointer"
+          cursor="pointer"
+          // defaultPosition={{ x: 10, y: 100 }}
+          align="right"
+        >
+          <div>
+            <Image
+              src="/images/computer.png"
+              alt="Keyboard"
+              width={100}
+              height={100}
+              draggable={false}
+            />
+          </div>
+        </Draggable>
         <Box
           borderRadius="lg"
           bg={useColorModeValue('whiteAlpha.700', 'whiteAlpha.200')}
@@ -143,22 +160,7 @@ const Page = () => {
                 </ModalContent>
               </Modal>
             </Box>
-            <Draggable
-          className="cursor-pointer"
-          cursor="pointer"
-          defaultPosition={{ x: 10, y: 100 }}
-          align="right"
-        >
-          <div>
-            <Image
-              src="/images/computer.png"
-              alt="Keyboard"
-              width={100}
-              height={100}
-              draggable={false}
-            />
-          </div>
-        </Draggable>
+            
           </Wrap>
         </Section>
 

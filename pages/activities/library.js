@@ -14,7 +14,7 @@ const Work = () => (
   <Layout title="Library">
     <Container>
       <Title>
-        Library <Badge>2021-Present</Badge>
+        Library <Badge>2021-2024</Badge>
       </Title>
       <P>
         For the past three years, I've been an active member of VNU-HCM
